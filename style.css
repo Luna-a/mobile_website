@@ -1,0 +1,283 @@
+/*
+****************************************************
+This file is different from style.css used in desktop version
+****************************************************
+*/
+
+/*
+Color scheme 1
+grain: #D7CEC7
+blackboard: #565656	
+oxblood: #76323F
+tan: #C09F80
+
+
+/************ 1 background ****************/
+/*all*/
+body{
+	font-size: 30px;
+	/*color: white;*/
+	background-color: #c5c1c0;
+	/*background-color: 8c8c8c;*/
+	/*background-color: #cce0ff;*/
+	font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3{
+	color: white;
+}
+
+/*index*/
+div.login{	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.error{
+	margin-top: 50%;
+	margin-bottom: auto;	
+	font-size: 3em;
+}
+
+input.login{
+	width: 95%;
+	height: 2em;
+	font-size: 400%;
+}
+
+/*details*/
+img.p1{
+	width: 100%;	
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+div.imgContainer{
+	/*max-height: 200px;*/
+	max-width: 90%;	
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+img.fullSize{
+	width: 100%;
+}
+div.fullImageContainer{
+	width:100%;
+}
+
+img.imgFormat{
+	margin: 10px;
+}
+
+
+/*test for multiple images to be in same place | not in use */
+/*
+img.details2{
+	max-width: 600px;
+	max-height: 600px;
+	position: absolute;
+	left: 8px;
+	top: 75px;
+}
+*/
+a{
+	color: white;
+}
+
+/*makes "details" black in home pages*/
+a.classTable{
+	color: black;
+}
+
+/*image.php remove text */
+a.remove{
+	color: white;
+	font-size: 3em;
+}
+/*makes links in details.php black*/
+#blackLink{
+	color: black;
+}
+
+
+/*details.php*/
+table.infoTableHead{
+	width: 100%;
+}
+
+/*details.php*/
+table.infoTableBody{
+	width: 100%;
+}
+
+/*details.php*/
+table.infoTableFoot{
+	width: 100%;
+}
+
+/**********************************
+Tables for repair and payment info in details.php
+***********************************/
+
+/*
+header for Repair List in details.php
+*/
+div.detailsTableTitle{
+	width: 100%;
+	margin-top: 35px;
+	font-size: 3.7em;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+
+div.detailsTableBox{	
+	width: 100%;	
+	margin-top: 5px;
+}
+	
+/* addBuyer.php */	
+div.buyerTableBox{
+	max-width: 90%;	
+}	
+	
+/*all*/
+div.spacer{
+	height: 50px;
+}
+
+div.footer{
+	position: relative;
+	left: 0;
+	bottom: 0;
+	font-size: 42px;	
+	color: white;
+	width: 100%;
+	height: 5%;
+	text-align: center;
+}
+
+div.add{
+	font-size: 42px;
+}
+
+/*not in use*/
+div.head{
+	text-align: center;
+	color: white;
+}
+
+/*table in details.php*/
+table{
+	font-size: 40px;
+	background-color: #ffffff;
+	border-collapse: separate;
+	border-spacing: 0;	
+	/*width: 90%;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+th,td {
+	padding: 10px 15px;
+	
+}
+
+/******************** 2 *********************/
+/*home.php*/
+thead, tfoot{
+	background: #111;
+	/*background: #565656;*/
+	/*background: #0d0d0d;*/
+	color: #fff;
+	/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);	*/
+	/*background: linear-gradient(#ffffff, #565656, #565656);*/
+	background:linear-gradient(to bottom, #737373 0%, #111 100%)
+}
+
+/*addVehicle.php*/
+
+
+/* adds grid to tables */
+td{
+  border-bottom: 1px solid #cecfd5;
+  border-right: 1px solid #cecfd5;
+}
+
+/*
+td:first-child{
+	border-left: 1px solid #595959;
+}
+*/
+
+/*Used for title header in most pages ie "All | Inventory |..." and "Payment List..."*/
+div.top{
+	font-size: 3.5em;
+	color: white;
+}
+
+/* payment.php */
+div.payment{
+	font-size: 3em;
+	color: white;
+}
+
+/*addPayment.php*/
+div.payed{
+	font-size: 2.5em;
+	text-align: center;	
+}
+
+/*addVehicle.php*/
+/*addBuyer.php*/
+table.addInfo{
+	background-color: #ffffff;
+	border-collapse: collapse;
+	border-spacing: 1;	
+	border:1;
+	width:60%;
+}
+
+input{
+	font-size: 1em;
+	height: 2em;
+	text-align: center;
+}
+
+input.box{
+	/*background: #F7F4F3;*/
+	background: #F1F0EF;
+	font-size: 1em;
+	color: #808080;
+	height: 2em;
+	text-align: center;
+}
+
+/*addVehicle.php and edit.php*/
+div.tableDateText{
+	font-size: 1em;
+	color: #808080;
+}
+
+table.addInfo td{
+	height: 3.5em;
+	border-bottom: 1px solid #cecfd5;
+  /*border-right: 1px solid #cecfd5;*/
+}
+
+/*addBuyer.php*/
+textarea.addComments{
+	background: #F1F0EF;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+select.size{
+	background: #F1F0EF;
+	font-size: 1.2em;
+}
+
+
