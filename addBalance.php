@@ -97,7 +97,7 @@ if(isset($_POST['submitInfo'])){
 	$user = $_SESSION['login_user'];
 
 	//if full amount paid then add vehicle to archive 
-	if($total == $paid){
+	if($total === $paid){
 	
 		//create new balance
 		$query = "INSERT INTO Balance (CarID, Total, Paid, User) Values ('$CarID','$total', '$paid', '$user')";	

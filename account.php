@@ -50,11 +50,11 @@ $user = $_SESSION['login_user'];
 				<td>
 					<center><input class="box" type="password" name="pass2" placeholder="Re-type New Password" size="40" ></center>
 					<?php
-						if(isset($_GET['error']) == true){
+						if(isset($_GET['error']) === true){
 							echo "<br>";
 							echo "<center>Error: Passwords Do Not Match</center>";	
 						}
-						else if(isset($_GET['qError']) == true){
+						else if(isset($_GET['qError']) === true){
 							echo "<br>";
 							echo "<center>Error: Could Not Update Password</center>";								
 						}

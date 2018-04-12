@@ -107,7 +107,7 @@ if(isset($_POST['submitVehicle'])){
 	$sold = 'NULL';
 	$carID = 'DEFAULT';
 	
-	if($fees == '')
+	if($fees === '')
 		$fees = 'NULL';
 	
 	$Day = 'NULL';

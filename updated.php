@@ -120,7 +120,7 @@ else {
 	header("location: noLogin.php");
 }
 
-if($_SERVER['REQUEST_METHOD'] == 'POST'){
+if($_SERVER['REQUEST_METHOD'] === 'POST'){
 	$editValue = trim($_POST['editValue']);
 }
 

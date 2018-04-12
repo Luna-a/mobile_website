@@ -70,7 +70,7 @@ $ID = mysqli_real_escape_string($conn, $_GET['ID']);
 
 <?php
 	if(isset($_POST['submitImage'])){
-		if(getimagesize($_FILES['image']['tmp_name']) == FALSE){
+		if(getimagesize($_FILES['image']['tmp_name']) === FALSE){
 			echo "Select an image";
 		}
 		else{

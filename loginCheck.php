@@ -7,7 +7,7 @@ $conn = GetConnection($DBUser, $DBpass, $DBHost, $DBname);
 session_start();
 
 
-if($_SERVER['REQUEST_METHOD'] == 'POST'){
+if($_SERVER['REQUEST_METHOD'] === 'POST'){
 	$name = trim($_POST['username']);
 	$password = trim($_POST['password']);
 } 

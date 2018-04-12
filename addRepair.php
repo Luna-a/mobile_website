@@ -94,7 +94,7 @@ if(isset($_POST['submitRepair'])){
 	$carID = $ID;
 	$comments = trim($_POST['comments']);						
 
-	if($comments == NULL){
+	if($comments === NULL){
 		$comments = "N/A";
 	}
 

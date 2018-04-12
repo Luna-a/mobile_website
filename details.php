@@ -108,7 +108,7 @@ $row = mysqli_fetch_assoc($result);
 	
 <?php
 	
-	if($row['Status'] == "Available"){	
+	if($row['Status'] === "Available"){	
 
 		/***************
 		info table
@@ -244,7 +244,7 @@ $row = mysqli_fetch_assoc($result);
 		echo '</div>';	
 	}
 	
-	else if($row['Status'] == "Sold"){
+	else if($row['Status'] === "Sold"){
 
 		/* retrieve info from Balance table */
 		$balQuery = "SELECT * FROM Balance WHERE CarID = '$ID'";
