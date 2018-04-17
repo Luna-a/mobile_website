@@ -1,3 +1,3 @@
 # mobile_website
 
-Very similar to desktop version. End goal is for mobile and desktop versions to have the exact same back end but different front end. Currently mobile version is the most up to date since it has been refactored to no longer need the "info.php" files.
+This version of the website is post refactoring. The code has been changed so that all of the '---info.php' files are no longer needed. Mobile and desktop versions are now equal in terms of how far along development they are. The back end for mobile and desktop versions are now for the most part exactly the same while the front ends are different in order to meet their respective requirements.
